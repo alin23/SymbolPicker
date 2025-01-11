@@ -4,7 +4,7 @@ A simple and cross-platform SFSymbol picker for SwiftUI
 
 ![](https://img.shields.io/badge/license-MIT-green)
 ![](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS%20%7C%20watchOS%20%7C%20tvOS%20%7C%20visionOS-blue)
-![](https://img.shields.io/github/v/release/xnth97/SymbolPicker?color=red)
+![](https://img.shields.io/github/v/release/alin23/SymbolPicker?color=red)
 
 ## Features
 
@@ -28,7 +28,7 @@ SymbolPicker is available as a Swift Package. Add this repo to your project thro
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/xnth97/SymbolPicker.git", .upToNextMajor(from: "1.6.0"))
+    .package(url: "https://github.com/alin23/SymbolPicker.git", .upToNextMajor(from: "2.0.0"))
 ]
 ```
 
