@@ -302,13 +302,14 @@ public struct SymbolPicker: View {
                                     .cornerRadius(Self.symbolCornerRadius)
                                     .foregroundColor(.primary)
                             }
-                            Text(thisSymbol)
-                                .font(.system(size: 8))
+                            Text(thisSymbol.replacingOccurrences(of: ".", with: " "))
+                                .font(.system(size: 9, design: .rounded))
                                 .lineLimit(2, reservesSpace: true)
                                 .multilineTextAlignment(.center)
                                 .allowsTightening(true)
                                 .frame(maxWidth: Self.gridDimension)
                                 .fixedSize()
+                                .foregroundColor(.secondary)
                         }
                         .help(thisSymbol)
                     }
